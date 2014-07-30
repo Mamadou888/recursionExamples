@@ -29,7 +29,6 @@ def sierpinski(points,degree,myTurtle):
                    degree-1, myTurtle)
         sierpinski([points[2],
                         getMid(points[2], points[1]),
-                        getMid(points[0], points[2])],
                    degree-1, myTurtle)
 
 def main():
